@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growtopia Lagun</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #EAF6F6, #D1E8E2);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: #4A90E2;
+            color: white;
+            border-bottom: 5px solid #4178C0;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Card Styling */
+        .section-card {
+            background: white;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .section-card h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #4A90E2;
+        }
+
+        .section-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Growbets Ad */
+        .growbets-ad img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .growbets-ad img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            background: #4A90E2;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            background: #3A78C8;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4A90E2;
+            color: white;
+            font-size: 0.9rem;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Growtopia Lagun</h1>
+        <p>Your hub for all things Growtopia!</p>
+    </header>
+
+    <div class="container">
+        <!-- Growbets Section -->
+        <div class="section-card growbets-ad">
+            <h2>Check Out Growbets!</h2>
+            <a href="https://growbets.net/r/lagun" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/1145014471706804254/1321219597202100284/image.png?ex=676c7123&is=676b1fa3&hm=f90a088858e358d883cee519e489d718313b208eee33f8636e333c7a9558ceeb&" alt="Growbets Promo">
+            </a>
+            <p>Try your luck with Growbets, the most exciting Growtopia betting platform!</p>
+            <a href="https://growbets.net/r/lagun" target="_blank" class="button">Visit Growbets (10 FREE WLS)</a>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section-card contact-section">
+            <h2>Contact Me</h2>
+            <p>Facebook: <a href="https://www.facebook.com/Lagunyts" target="_blank" style="color: #4A90E2; text-decoration: none;">Liutauras Lagun</a></p>
+            <p>Discord: <strong>Lagun#3937</strong></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 LAGUN SPAM. All rights reserved.</p>
+    </footer>
+</body>
+</html>
